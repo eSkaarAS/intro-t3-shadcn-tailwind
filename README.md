@@ -131,7 +131,31 @@ Legg merke til at theme-toggle ikke er i page-layoutet, så den må legges til m
 
 # 6: Type-sikkerhet gjennom hele stacken
 
+La oss lage en liten todo app
+
+Steg 1: rename post.ts til todo.ts og lag endepunkter for todo
+
+- findAll
+- create
+- update
+- delete
+
+Steg 2: Lag en todo-komponent
+
+[Shadcn/UI - Checkbox](https://ui.shadcn.com/docs/components/checkbox)
+
+Steg 3: Fiks `index.tsx`
+
+- Flytt form utenfor main og sett sticky bottom-0
+- sett onSubmit på form til å lage en ny todo
+
 # 6: Deploy til Vercel
+
+Lag en konto på vercel
+Legg inn et kreditt kort
+Koble til github
+
+Klikk på magic button
 
 # 7: Ekstra ressurser
 
