@@ -108,3 +108,32 @@ Kjør følgende kommandoer:
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add dropdown-menu
 ```
+
+Oppdater `src/pages/index.tsx` slik at den ser slik at man bruker text-foreground og bg-background
+
+# 5: La oss lage vår første side
+
+Velg en side fra [shadcn/ui - Blocks](https://ui.shadcn.com/blocks)
+
+Du kommer til å mangle noen komponenter fra shadcn/ui, så kjør følgende kommandoer:
+
+```
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add NAVN_PÅ_KOMPONENT
+...
+...
+npx shadcn-ui@latest add NAVN_PÅ_KOMPONENT
+```
+
+Om du velger en av de mer avanserte sidene, så må du kanskje wrappe `_app.tsx` med en provider. For eksempel tooltip.
+
+Legg merke til at theme-toggle ikke er i page-layoutet, så den må legges til manuelt.
+
+# 6: Type-sikkerhet gjennom hele stacken
+
+# 6: Deploy til Vercel
+
+# 7: Ekstra ressurser
+
+- [CSS to Tailwind css](https://transform.tools/css-to-tailwind)
+- [Samling av ting relatert til Shadcn/UI](https://github.com/birobirobiro/awesome-shadcn-ui)

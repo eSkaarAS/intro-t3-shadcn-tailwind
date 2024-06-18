@@ -5,13 +5,16 @@ import { api } from "@/utils/api";
 
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-      <main className={GeistSans.className}>
-        <Component {...pageProps} />
-      </main>
+      <TooltipProvider>
+        <main className={GeistSans.className}>
+          <Component {...pageProps} />
+        </main>
+      </TooltipProvider>
     </ThemeProvider>
   );
 };
