@@ -151,13 +151,17 @@ Steg 3: Fiks `index.tsx`
 
 # 6: Deploy til Vercel
 
-Lag en konto på vercel
-Legg inn et kreditt kort
-Koble til github
+- Lag en konto på vercel
+- Legg inn et kreditt kort
+- Koble til github
 
-Klikk på magic button
+- Klikk på "magic button" for å deploy
 
 # 7: Ekstra ressurser
 
 - [CSS to Tailwind css](https://transform.tools/css-to-tailwind)
 - [Samling av ting relatert til Shadcn/UI](https://github.com/birobirobiro/awesome-shadcn-ui)
+
+# 8: Bonus
+
+- [Typewriter](https://www.cult-ui.com/docs/components/typewriter)

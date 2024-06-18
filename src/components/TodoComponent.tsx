@@ -3,6 +3,7 @@ import { Checkbox } from "./ui/checkbox";
 import { api } from "@/utils/api";
 import { Button } from "./ui/button";
 import { Trash2 } from "lucide-react";
+import { Typewriter } from "./typewriter";
 
 export default function TodoComponent({ todo }: { todo: Todo }) {
   const utils = api.useUtils();
@@ -31,7 +32,7 @@ export default function TodoComponent({ todo }: { todo: Todo }) {
         htmlFor={todo.id}
         className={`text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 ${todo.completed ? "line-through opacity-50" : ""}`}
       >
-        {todo.description}
+        <Typewriter baseText={todo.description} delay={0.2} texts={[]} />
       </label>
       <Button
         className="ml-auto"
